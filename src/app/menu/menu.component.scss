@@ -1,0 +1,33 @@
+header {
+    position: absolute;
+    left: 0;
+    right: 0;
+    height: 100px;
+    z-index: 1;
+    padding-right: 120px;
+    padding-left: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    a {
+        font-size: 18px;
+        font-weight: 500;
+        font-weight: 500;
+        backface-visibility: hidden;
+        color: white;
+        text-decoration: none;
+        margin-left: 5rem;
+        font-weight: 600;
+        cursor: pointer;
+        &:hover {
+            color: rgb(238, 28, 150);
+            text-decoration: underline;
+            font-weight: 700;
+        }
+    }
+}
+
+.logo_img {
+    height: 30px;
+    cursor: pointer;
+}
