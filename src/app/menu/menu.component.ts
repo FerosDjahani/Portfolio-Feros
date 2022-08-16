@@ -12,4 +12,9 @@ export class MenuComponent implements OnInit {
   ngOnInit(): void {
   }
 
+
+  getHome() {
+    window.location.href = './index.html';
+  }
 }
+
