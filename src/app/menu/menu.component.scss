@@ -14,6 +14,8 @@ header {
         font-weight: 500;
         font-weight: 500;
         backface-visibility: hidden;
+        transition: 225ms color ease-in-out;
+        position: relative;
         color: white;
         text-decoration: none;
         margin-left: 5rem;

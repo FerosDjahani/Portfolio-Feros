@@ -30,7 +30,8 @@
     align-items: center;
     flex-direction: row;
     padding-left: 120px;
-    width: 720px;
+    //width: 720px;
+    box-sizing: border-box;
 }
 
 .h1Color {
@@ -67,9 +68,11 @@
 }
 
 .my-pic {
-    width: 280px;
-    height: 280px;
+    height: 300px;
+    width: 300px;
     border-radius: 100%;
-    margin-left: 70%;
-    margin-bottom: 50px;
+}
+
+.img-container {
+    padding-left: 32rem;
 }
