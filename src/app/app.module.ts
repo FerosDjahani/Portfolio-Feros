@@ -21,7 +21,7 @@ import { MyWorkComponent } from './my-work/my-work.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
     
   ],
   providers: [],

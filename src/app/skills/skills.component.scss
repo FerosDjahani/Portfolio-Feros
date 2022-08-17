@@ -56,7 +56,7 @@ h2 {
     padding-top: 1rem;
 }
 
-[data-aos="custom-animation1"] {
+[data-aos="fade-right"] {
     transform: skewX(45deg);
     opacity: 0;
     transition-property: transform, opacity;
@@ -66,7 +66,7 @@ h2 {
     }
 }
 
-[data-aos="custom-animation2"] {
+[data-aos="fade-right"] {
     transform: skewX(-45deg);
     opacity: 0;
     transition-property: transform, opacity;
