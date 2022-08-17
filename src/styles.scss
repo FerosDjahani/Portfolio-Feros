@@ -3,6 +3,7 @@ body {
     background-color: black;
     font-family: 'Open Sans', sans-serif;
     scroll-behavior: smooth;
+    font-family: Roboto, "Helvetica Neue", sans-serif;
 }
 
 .bg-gray {
@@ -15,4 +16,43 @@ h2 {
     display: flex;
     justify-content: center;
     font-size: 2.25rem;
+}
+
+h1 {
+    margin-block-start: 0;
+    margin-block-end: 0;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+h2 {
+    margin: 0;
+    color: white;
+    display: flex;
+    justify-content: center;
+    font-size: 2.25rem;
+}
+
+h3 {
+    margin: 0;
+    color: white;
+    display: flex;
+    justify-content: center;
+    font-size: 1.75rem;
+}
+
+.bg-gray {
+    background-color: #1a1a1a;
+}
+
+.blue {
+    color: #2dfcd8;
+}
+
+.red {
+    color: #fa2759;
+}
+
+.d-none {
+    display: none !important;
 }
