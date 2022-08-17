@@ -9,23 +9,55 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    a {
+    a,
+    a:visited,
+    a:hover {
+        cursor: pointer;
+        -webkit-backface-visibility: hidden;
+        backface-visibility: hidden;
+        position: relative;
+        transition: 125ms color ease-in-out;
+        color: #ffffff;
+        text-decoration: none;
         font-size: 18px;
         font-weight: 500;
-        font-weight: 500;
-        backface-visibility: hidden;
-        transition: 225ms color ease-in-out;
-        position: relative;
-        color: white;
-        text-decoration: none;
         margin-left: 5rem;
-        font-weight: 600;
-        cursor: pointer;
-        &:hover {
-            color: rgb(238, 28, 150);
-            text-decoration: underline;
-            font-weight: 700;
-        }
+    }
+    a:hover,
+    a:active {
+        color: #fa2759;
+    }
+    a.before:before,
+    a.after:after {
+        content: "";
+        transition: 125ms all ease-in-out;
+        -webkit-backface-visibility: hidden;
+        backface-visibility: hidden;
+        position: absolute;
+    }
+    a.before:before {
+        top: -0.25em;
+    }
+    a.after:after {
+        bottom: -0.25em;
+    }
+    a.before:before,
+    a.after:after {
+        height: 5px;
+        height: 0.15rem;
+        width: 0;
+        background: #fa2759;
+    }
+    a.third:after,
+    a.sixth:before,
+    a.sixth:after {
+        left: 50%;
+        -webkit-transform: translateX(-50%);
+        transform: translateX(-50%);
+    }
+    a.before:hover:before,
+    a.after:hover:after {
+        width: 100%;
     }
 }
 

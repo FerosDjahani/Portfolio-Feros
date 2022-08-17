@@ -13,8 +13,10 @@ export class MenuComponent implements OnInit {
   }
 
 
-  getHome() {
-    window.location.href = './index.html';
-  }
+   getHome() {
+    //window.location.href='./menu.component.html' 
+  //window.location.reload();
+}
+
 }
 
