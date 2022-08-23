@@ -1,0 +1,17 @@
+.imprint-wrap {
+    margin-top: 8rem;
+    color: white;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    a {
+        text-decoration: none;
+        color: #2dfcd8;
+        transition: ease-in-out 125ms;
+        &:hover {
+            text-decoration: underline;
+        }
+    }
+}

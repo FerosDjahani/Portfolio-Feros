@@ -15,6 +15,8 @@ export class SlideshowComponent implements OnInit {
   this.updateImage();
  }
 
+ 
+
  updateImage(){
 
   setInterval(() =>{

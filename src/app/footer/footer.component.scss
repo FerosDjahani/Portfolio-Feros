@@ -1,0 +1,27 @@
+.footer-wrap {
+    display: flex;
+    color: #1a1a1a;
+    background-color: white;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem 3rem;
+}
+
+.link-container {
+    a {
+        text-decoration: none;
+        color: #1a1a1a;
+        transition: ease-in-out 125ms;
+        &:hover {
+            text-decoration: underline;
+        }
+    }
+}
+
+.icon-container {
+    img {
+        height: 3.5rem;
+        width: 3.5rem;
+        margin-left: 5rem;
+    }
+}

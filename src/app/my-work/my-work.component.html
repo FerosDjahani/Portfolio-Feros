@@ -1,19 +1,33 @@
 <div class="my-work-wrap">
     <h2 data-aos="zoom-in-up">My Work</h2>
     <div data-aos="fade-left" class="button-bar">
-        <button class="selected" id="all-btn" mat-stroked-button>
+        <button class="selected" id="all-btn" (click)="showAll()" mat-stroked-button>
         All
       </button>
-        <button id="angular-btn" mat-stroked-button>
+        <button id="angular-btn" (click)="showAngular()" mat-stroked-button>
         Angular
       </button>
-        <button id="javascript-btn" mat-stroked-button>
+        <button id="javascript-btn" (click)="showJavascript()" mat-stroked-button>
         Java<wbr /> Script
       </button>
     </div>
 
 
+    <div class="my-work-container">
+        <ng-container *ngFor="let project of filterdProjects; let i = index">
+            <div data-aos="zoom-in-up" class="my-work-div">
+                <div class="hover-project">
+                    <h3>{{ project.title }}</h3>
+                    <span>{{ project.description }}</span>
+                    <a href="{{ project.link }}">
+                        <button mat-stroked-button>Try Out</button>
+                    </a>
 
+                </div>
+                <img src="{{ project.image }}" />
+            </div>
+        </ng-container>
+    </div>
 
 
 

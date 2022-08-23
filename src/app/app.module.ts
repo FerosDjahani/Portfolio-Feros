@@ -8,6 +8,13 @@ import { SlideshowComponent } from './slideshow/slideshow.component';
 import { MenuComponent } from './menu/menu.component';
 import { SkillsComponent } from './skills/skills.component';
 import { MyWorkComponent } from './my-work/my-work.component';
+import { AboutMeComponent } from './about-me/about-me.component';
+import { ContactMeComponent } from './contact-me/contact-me.component';
+import { ContactFormComponent } from './contact-form/contact-form.component';
+import { FooterComponent } from './footer/footer.component';
+import { ImprintComponent } from './imprint/imprint.component';
+import { BackgroundComponent } from './background/background.component';
+import { LegalNoticeComponent } from './legal-notice/legal-notice.component';
 
 
 
@@ -17,7 +24,14 @@ import { MyWorkComponent } from './my-work/my-work.component';
     SlideshowComponent,
     MenuComponent,
     SkillsComponent,
-    MyWorkComponent
+    MyWorkComponent,
+    AboutMeComponent,
+    ContactMeComponent,
+    ContactFormComponent,
+    FooterComponent,
+    ImprintComponent,
+    BackgroundComponent,
+    LegalNoticeComponent
     
   ],
   imports: [
