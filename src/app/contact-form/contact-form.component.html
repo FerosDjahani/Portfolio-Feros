@@ -2,24 +2,24 @@
     <div class="contact-form">
         <div data-aos="fade-right" class="form-field-container">
             <p>Name</p>
-            <div color="accent" appearance="outline">
-                <label>Name</label>
+            <mat-form-field color="accent" appearance="outline">
+                <mat-label>Name</mat-label>
                 <input id="name" matInput placeholder="Enter your name" />
-            </div>
+            </mat-form-field>
         </div>
         <div data-aos="fade-left" class="form-field-container">
             <p>Email Address</p>
-            <div color="accent" appearance="outline">
-                <label>E-Mail</label>
+            <mat-form-field color="accent" appearance="outline">
+                <mat-label>E-Mail</mat-label>
                 <input id="e-mail" type="email" name="email" matInput placeholder="Enter your Email address" />
-            </div>
+            </mat-form-field>
         </div>
         <div data-aos="fade-right" class="form-field-container">
             <p>Message</p>
-            <div color="accent" appearance="outline">
-                <label>Message</label>
+            <mat-form-field color="accent" appearance="outline">
+                <mat-label>Message</mat-label>
                 <textarea id="message" name="message" matInput placeholder="Enter your message"></textarea>
-            </div>
+            </mat-form-field>
         </div>
         <button data-aos="zoom-out-up" (click)="submit()" type="submit" class="from-center" mat-stroked-button>
         SUBMIT

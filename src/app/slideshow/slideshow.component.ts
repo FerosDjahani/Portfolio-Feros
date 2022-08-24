@@ -13,6 +13,7 @@ export class SlideshowComponent implements OnInit {
 
  ngOnInit() {
   this.updateImage();
+  
  }
 
  

@@ -12,7 +12,7 @@
 }
 
 .form-field-container {
-    div {
+    mat-form-field {
         width: 40vw;
         &:hover {
             border-color: #2dfcd8 !important;
@@ -20,9 +20,24 @@
     }
 }
 
+.mat-form-field {
+    padding: 1em 0;
+}
+
+.mat-form-field-infix {
+    display: block;
+    position: relative;
+    flex: auto;
+    min-width: 0;
+    width: 180px;
+    padding: 0.5em 0;
+    border-top: 0.84375em solid transparent;
+}
+
 .mat-input-element {
     background-color: #000000 !important;
     color: white !important;
+    caret-color: #69f0ae;
 }
 
 textarea {
@@ -38,7 +53,6 @@ button {
     border-radius: 6px;
     transition: ease-in-out 100ms;
     background-color: #000000;
-    font-weight: bolder;
     &:hover {
         background-color: #2dfcd8;
         color: #000000;
