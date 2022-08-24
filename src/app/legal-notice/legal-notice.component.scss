@@ -1,0 +1,29 @@
+.legal-notice-wrap {
+    z-index: 3;
+    background-color: #1a1a1a;
+    padding: 2rem;
+    margin-top: 6.5rem;
+    color: white;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    line-height: 1.5;
+    h1,
+    h2,
+    h3 {
+        padding-bottom: 1rem;
+    }
+    h1 {
+        padding-top: 1rem;
+    }
+    a {
+        text-decoration: none;
+        color: #2dfcd8;
+        transition: ease-in-out 125ms;
+        &:hover {
+            text-decoration: underline;
+        }
+    }
+}
