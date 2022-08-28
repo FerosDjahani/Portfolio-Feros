@@ -1,3 +1,4 @@
+<app-menu></app-menu>
 <div class="slideshow-container">
     <img *ngIf="showImage" class="img-slideshow" src="assets/img/{{images[currentImage]}}">
 
@@ -10,8 +11,8 @@
             <span class="h2Color">I'm</span>&nbsp;&nbsp;&nbsp;<span class="h1Color">Feros</span>&nbsp;&nbsp;&nbsp;<span class="h2Color">Djahani</span><br>
             <span class="h2Color">Front</span>&nbsp;&nbsp;&nbsp;<span class="h2Color">End</span>&nbsp;&nbsp;&nbsp;<span class="h2Color">Developer</span></b>
 
-        <div>
-            <div class="button2">
+        <div class="mobb">
+            <div (click)="toContactMe()" class="button2">
                 <span></span>
                 <span></span>
                 <span></span>
@@ -25,10 +26,16 @@
 
 
 </div>
-<div class="arrow-wrap">
+<div (click)="toMySkills()" class="arrow-wrap">
     <div class="arrow">
         <span></span>
         <span></span>
         <span></span>
     </div>
 </div>
+<app-skills id="skills"></app-skills>
+<app-my-work id="my-work"></app-my-work>
+<app-about-me id="about-me"></app-about-me>
+<app-contact-me id="contact-me"></app-contact-me>
+<app-contact-form></app-contact-form>
+<app-footer></app-footer>

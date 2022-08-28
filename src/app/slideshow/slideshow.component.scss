@@ -226,3 +226,234 @@
         transform: rotate(45deg) translate(20px, 20px);
     }
 }
+
+@media (max-width: 1300px) {
+    .img-container {
+        padding-right: 6.1rem;
+    }
+    .introduction-container {
+        padding: 3rem 0 0 6.1rem;
+    }
+}
+
+@media (max-width: 1110px) {
+    .h2Color {
+        font-size: 3.4rem;
+    }
+    .h1Color {
+        font-size: 3.4rem;
+    }
+    .mypic {
+        height: 80px;
+        width: 80px;
+    }
+}
+
+@media (max-width: 1110px) {
+    .h2Color {
+        font-size: 3.2rem;
+    }
+    .h1Color {
+        font-size: 3.2rem;
+    }
+    .mypic {
+        height: 250px;
+        width: 250px;
+        padding: 30px;
+    }
+    .introduction-wrap {
+        justify-content: center;
+    }
+    .img-container {
+        padding-right: 4rem;
+    }
+    .introduction-container {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        padding: 0rem 1rem 0 4rem;
+    }
+    .button2 {
+        padding: 1.5rem 6rem;
+        margin-top: 2rem;
+    }
+}
+
+@media (max-width: 1000px) {
+    .h2Color {
+        font-size: 3.2rem;
+    }
+    .h1Color {
+        font-size: 3.2rem;
+    }
+    .mypic {
+        height: 250px;
+        width: 250px;
+    }
+    .introduction-wrap {
+        justify-content: center;
+    }
+    .img-container {
+        padding-right: 4rem;
+    }
+    .introduction-container {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        padding: 0rem 1rem 0 4rem;
+    }
+    .button2 {
+        padding: 1.5rem 6rem;
+        margin-top: 2rem;
+    }
+}
+
+@media (max-width: 900px) {
+    .h2Color {
+        font-size: 3rem;
+    }
+    .h1Color {
+        font-size: 3rem;
+    }
+    .introduction-wrap {
+        justify-content: space-between;
+    }
+    .img-container {
+        padding-right: 3rem;
+    }
+    .introduction-container {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        padding: 0rem 0 0 3rem;
+    }
+    .button2 {
+        padding: 1.5rem 6rem;
+        margin-top: 2rem;
+    }
+}
+
+@media (max-width: 830px) {
+    .h2Color {
+        font-size: 3.4rem;
+    }
+    .h1Color {
+        font-size: 3.4rem;
+    }
+    .introduction-wrap {
+        flex-direction: column-reverse;
+        justify-content: center;
+        padding: 5rem 2rem 0;
+    }
+    .img-container {
+        padding-right: 0;
+    }
+    .introduction-container {
+        flex-direction: column;
+        text-align: start;
+        padding: 0;
+    }
+    .arrow-wrap {
+        display: none;
+    }
+    .button2 {
+        margin-bottom: 2rem;
+    }
+    .mobb {
+        display: flex;
+        justify-content: center;
+    }
+}
+
+@media (max-width: 600px) {
+    .h2Color {
+        font-size: 3rem;
+    }
+    .h1Color {
+        font-size: 3.4rem;
+    }
+    .introduction-wrap {
+        flex-direction: column-reverse;
+        justify-content: center;
+        padding: 4rem 1.5rem 0;
+    }
+    .mobmen {
+        display: unset;
+    }
+}
+
+@media (max-width: 520px) {
+    .h2Color {
+        font-size: 2.5rem;
+    }
+    .h1Color {
+        font-size: 2.5rem;
+    }
+    .button2 {
+        margin-bottom: 0;
+        padding: 2rem 7rem;
+    }
+}
+
+@media (max-width: 500px) {
+    .introduction-wrap {
+        margin-bottom: -4rem;
+    }
+    .img-slideshow {
+        display: none;
+    }
+    .slideshow-container {
+        background-color: #1a1a1a;
+    }
+}
+
+@media (max-width: 440px) {
+    .h2Color {
+        font-size: 2rem;
+    }
+    .h1Color {
+        font-size: 2rem;
+    }
+    .mypic {
+        height: 200px;
+        width: 200px;
+    }
+    .introduction-wrap {
+        padding: 0 1rem 0;
+    }
+    .mobb {
+        display: flex;
+        justify-content: center;
+    }
+    .button2 {
+        padding: 1.5rem 6rem;
+    }
+}
+
+@media (max-width: 360px) {
+    .introduction-wrap {
+        padding: 2rem 1rem 0;
+    }
+    .introduction-container {
+        text-align: center;
+    }
+    .button2 {
+        padding: 1rem 4.5rem;
+    }
+}
+
+@media (max-width: 330px) {
+    .mypic {
+        height: 180px;
+        width: 180px;
+    }
+    .button2 {
+        padding: 1rem 3.5rem;
+    }
+}
+
+@media (max-width: 300px) {
+    .button2 {
+        padding: 1rem 3rem;
+    }
+}

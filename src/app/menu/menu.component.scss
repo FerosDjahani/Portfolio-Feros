@@ -65,3 +65,108 @@ header {
     height: 30px;
     cursor: pointer;
 }
+
+@media (max-width: 1300px) {
+    header {
+        padding: 1.5rem 6.1rem 0;
+    }
+}
+
+@media (max-width: 1000px) {
+    header {
+        padding: 1.5rem 4rem 0;
+    }
+    a,
+    a:visited,
+    a:hover {
+        margin-left: 4rem;
+    }
+}
+
+@media (max-width: 900px) {
+    header {
+        padding: 1.5rem 3rem 0;
+    }
+    a,
+    a:visited,
+    a:hover {
+        margin-left: 3.5rem;
+    }
+}
+
+@media (max-width: 700px) {
+    header {
+        padding: 1.5rem 2rem 0;
+    }
+    a,
+    a:visited,
+    a:hover {
+        margin-left: 2.5rem;
+    }
+}
+
+@media (max-width: 600px) {
+    header {
+        padding: 1.5rem 1.5rem 0;
+        background-color: #000000;
+        flex-direction: row-reverse;
+        height: 60px;
+    }
+    img {
+        position: absolute;
+        top: 1.3rem;
+        right: 1.3rem;
+    }
+    .header-links {
+        display: none;
+    }
+    .mobile-links {
+        display: flex;
+        flex-wrap: wrap;
+        li {
+            padding: 0;
+        }
+        a {
+            margin-left: 0;
+            margin-right: 1rem;
+        }
+    }
+    #menu {
+        display: block;
+        z-index: 2;
+        top: 2rem;
+        left: 1.3rem;
+    }
+    .mat-button-wrapper {
+        width: 2rem;
+        height: 2rem;
+    }
+}
+
+@media (max-width: 500px) {
+    .nav ul {
+        padding: 1.5rem 0;
+    }
+}
+
+@media (max-width: 350px) {
+    .mobile-links {
+        li {
+            margin-bottom: 0.5rem;
+        }
+    }
+    a,
+    a:visited,
+    a:hover {
+        font-size: 14px;
+        font-weight: 400;
+    }
+}
+
+@media (max-width: 300px) {
+    .mobile-links {
+        li {
+            margin-bottom: 0.25rem;
+        }
+    }
+}

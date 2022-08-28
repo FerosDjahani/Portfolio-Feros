@@ -111,3 +111,301 @@ h2 {
         }
     }
 }
+
+@media (max-width: 1600px) {
+    .my-work-div {
+        img {
+            height: 22rem;
+        }
+    }
+}
+
+@media (max-width: 1500px) {
+    .my-work-div {
+        img {
+            height: 21rem;
+        }
+    }
+}
+
+@media (max-width: 1400px) {
+    .my-work-div {
+        img {
+            height: 20rem;
+        }
+    }
+}
+
+@media (max-width: 1300px) {
+    .my-work-wrap {
+        padding: 0 6.1rem;
+    }
+}
+
+@media (max-width: 1200px) {
+    .button-bar {
+        margin-bottom: 2rem;
+        button {
+            width: 15%;
+        }
+    }
+    .my-work-div {
+        margin: 1rem 1rem;
+        width: 43%;
+        img {
+            height: 17rem;
+        }
+    }
+}
+
+@media (max-width: 1100px) {
+    .my-work-container {
+        justify-content: space-between;
+        padding-bottom: 4rem;
+    }
+    .my-work-div {
+        margin: 0 0 2rem;
+        width: 48%;
+        img {
+            height: 17rem;
+        }
+    }
+}
+
+@media (max-width: 1000px) {
+    .button-bar {
+        button {
+            width: 18%;
+        }
+    }
+    .my-work-wrap {
+        padding: 0 4rem;
+    }
+    .my-work-container {
+        justify-content: space-between;
+        padding-bottom: 4rem;
+    }
+    .my-work-div {
+        margin: 1rem 0;
+        width: 47%;
+        img {
+            height: 15rem;
+        }
+    }
+}
+
+@media (max-width: 900px) {
+    .my-work-wrap {
+        padding: 0 3rem;
+    }
+    .my-work-container {
+        justify-content: space-between;
+        padding-bottom: 3rem;
+    }
+    .my-work-div {
+        margin: 1rem 0;
+        width: 47%;
+        img {
+            height: 14rem;
+        }
+    }
+}
+
+@media (max-width: 800px) {
+    .my-work-wrap {
+        padding: 0 3rem;
+        background-color: #1a1a1a;
+    }
+    .my-work-container {
+        flex-direction: column;
+        align-items: center;
+        padding-bottom: 2rem;
+    }
+    .my-work-div {
+        margin: 0 0 2rem;
+        width: 90%;
+        img {
+            height: 23rem;
+        }
+    }
+}
+
+@media (max-width: 750px) {
+    .my-work-div {
+        img {
+            height: 21rem;
+        }
+    }
+}
+
+@media (max-width: 700px) {
+    h2 {
+        padding-top: 1.5rem;
+    }
+    .button-bar {
+        margin-bottom: 2rem;
+        button {
+            width: 22%;
+        }
+    }
+    .my-work-wrap {
+        padding: 0 2rem;
+    }
+    .my-work-container {
+        padding-bottom: 1.5rem;
+    }
+    .my-work-div {
+        margin: 0 0 2rem;
+        width: 95%;
+        img {
+            height: 23rem;
+        }
+    }
+}
+
+@media (max-width: 650px) {
+    .my-work-div {
+        img {
+            height: 21rem;
+        }
+    }
+}
+
+@media (max-width: 600px) {
+    .button-bar {
+        button {
+            width: 25%;
+        }
+    }
+    .my-work-wrap {
+        padding: 0 2rem;
+    }
+    .my-work-container {
+        padding-bottom: 1rem;
+    }
+    .my-work-div {
+        margin: 0 0 2rem;
+        width: 100%;
+        img {
+            height: 20rem;
+        }
+    }
+}
+
+@media (max-width: 550px) {
+    .button-bar {
+        button {
+            width: 27%;
+        }
+    }
+    .my-work-div {
+        img {
+            height: 18rem;
+        }
+    }
+}
+
+@media (max-width: 500px) {
+    .button-bar {
+        margin-bottom: 1.5rem;
+    }
+    .my-work-wrap {
+        padding: 0 1.5rem;
+    }
+    .my-work-container {
+        padding-bottom: 0;
+    }
+    .my-work-div {
+        margin: 0 0 1.5rem;
+        img {
+            height: 17rem;
+        }
+    }
+}
+
+@media (max-width: 450px) {
+    .button-bar {
+        justify-content: space-evenly;
+        button {
+            width: 30%;
+            padding: 0.4rem 0;
+        }
+    }
+    .my-work-div {
+        img {
+            height: 15rem;
+        }
+    }
+}
+
+@media (max-width: 400px) {
+    h2 {
+        padding-top: 0;
+        padding-bottom: 2rem;
+    }
+    .my-work-wrap {
+        padding: 0 1rem;
+    }
+    .my-work-div {
+        margin: 0 0 1rem;
+        img {
+            height: 14rem;
+        }
+        button {
+            width: 40%;
+            margin: 0;
+            padding: 0.6rem 0rem;
+            font-size: 1rem;
+        }
+        .hover-project {
+            h3 {
+                padding: 0 1rem;
+            }
+        }
+    }
+}
+
+@media (max-width: 350px) {
+    .button-bar {
+        justify-content: space-between;
+        button {
+            margin: 0 0.1rem;
+            width: 32%;
+            padding: 0.6rem 0;
+        }
+    }
+    .my-work-div {
+        margin: 0 0 1rem;
+        img {
+            height: 12rem;
+        }
+        button {
+            width: 40%;
+            margin: 0;
+            padding: 0.2rem 0rem;
+            font-size: 1rem;
+        }
+        .hover-project {
+            h3 {
+                padding: 0 1rem;
+                font-size: 1.25rem;
+            }
+            span {
+                padding: 0.5rem;
+            }
+        }
+    }
+}
+
+@media (max-width: 300px) {
+    .button-bar {
+        button {
+            line-height: 16px;
+        }
+    }
+    .my-work-div {
+        img {
+            height: 10rem;
+        }
+    }
+}

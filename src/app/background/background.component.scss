@@ -38,3 +38,12 @@
         transform: scale(1, 1);
     }
 }
+
+@media (max-width: 500px) {
+    .slideshow-container {
+        background-color: #1a1a1a;
+    }
+    .slideshow-img {
+        display: none;
+    }
+}

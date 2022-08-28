@@ -65,3 +65,122 @@ p {
     height: 1.5rem;
     width: 1.5rem;
 }
+
+@media (max-width: 1300px) {
+    .my-journey-wrap {
+        justify-content: space-between;
+        margin: 4rem 3.1rem 0;
+    }
+    .my-journey-container {
+        max-width: 20%;
+    }
+    p {
+        line-height: 1.4;
+    }
+    .about-me-container {
+        padding: 3rem 6.1rem;
+    }
+}
+
+@media (max-width: 1110px) {
+    .my-journey-wrap {
+        margin: 4rem 2rem 0;
+    }
+    .about-me-wrap {
+        padding-bottom: 4rem;
+    }
+    p {
+        line-height: 1.3;
+    }
+    .about-me-container {
+        padding: 3rem 6.1rem;
+    }
+}
+
+@media (max-width: 1000px) {
+    .my-journey-wrap {
+        flex-direction: column;
+        align-items: center;
+        margin: 2rem 4rem 0 4rem;
+        padding: 0;
+    }
+    .my-journey-container {
+        max-width: 100%;
+        margin-bottom: 2rem;
+        padding: 0;
+    }
+    .about-me-wrap {
+        padding-bottom: 4rem;
+    }
+    p {
+        line-height: 1.5;
+    }
+    h2 {
+        font-size: 2rem;
+    }
+    h3 {
+        font-size: 1.5rem;
+    }
+    .about-me-container {
+        padding: 2rem 4rem;
+        &:before {
+            width: 87%;
+        }
+    }
+}
+
+@media (max-width: 700px) {
+    .about-me-container {
+        padding: 2rem 3rem;
+        &:before {
+            width: 90%;
+        }
+        img {
+            height: 150px;
+            width: 150px;
+        }
+    }
+    .icon-container {
+        min-height: 4rem;
+        min-width: 4rem;
+        margin-bottom: 1rem;
+    }
+    .about-me-wrap {
+        padding-bottom: 2rem;
+    }
+    .about-me-icon {
+        height: 1.5rem;
+        width: 1.5rem;
+    }
+}
+
+@media (max-width: 500px) {
+    .about-me-container {
+        flex-direction: column;
+        padding: 2rem 1.5rem 0rem 1.5rem;
+        &:before {
+            display: none;
+        }
+        img {
+            height: 150px;
+            width: 150px;
+        }
+        span {
+            margin-top: 2rem;
+            max-width: 100%;
+        }
+    }
+    .my-journey-wrap {
+        flex-direction: column;
+        align-items: center;
+        margin: 1.5rem 1.5rem 0 1.5rem;
+        padding: 0;
+    }
+    .about-me-wrap {
+        padding-bottom: 0;
+    }
+    .my-journey-container {
+        padding: 0;
+        margin-bottom: 1rem;
+    }
+}

@@ -62,3 +62,47 @@ button {
         color: #000000;
     }
 }
+
+@media (max-width: 1000px) {
+    .form-field-container {
+        mat-form-field {
+            width: 60vw;
+        }
+    }
+    button {
+        width: 60vw;
+    }
+}
+
+@media (max-width: 800px) {
+    .form-field-container {
+        mat-form-field {
+            width: 75vw;
+        }
+    }
+    button {
+        width: 75vw;
+    }
+}
+
+@media (max-width: 600px) {
+    .form-field-container {
+        mat-form-field {
+            width: 85vw;
+        }
+    }
+    button {
+        width: 85vw;
+    }
+}
+
+@media (max-width: 500px) {
+    .form-field-container {
+        mat-form-field {
+            width: 90vw;
+        }
+    }
+    button {
+        width: 90vw;
+    }
+}

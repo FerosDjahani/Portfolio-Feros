@@ -6,7 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./slideshow.component.scss']
 })
 export class SlideshowComponent implements OnInit {
-
+  constructor() {}
   images = ['wallpaperLaptop.jpg','wallpaperLaptop2.jpg'];
   currentImage = 0;
   showImage = true;
@@ -31,5 +31,14 @@ export class SlideshowComponent implements OnInit {
   }, 8000);
 
  }
-
+ toContactMe() {
+  document
+    .getElementById('contact-me')
+    .scrollIntoView({ behavior: 'smooth' });
 }
+
+toMySkills() {
+  document.getElementById('skills').scrollIntoView({ behavior: 'smooth' });
+}
+}
+

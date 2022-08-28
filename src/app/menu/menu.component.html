@@ -3,16 +3,45 @@
 
     <div class="links">
         <a class="header-links third after" routerLink="/"> HOME </a>
-        <a class="header-links third after">
-          SKILLS
-        </a>
-        <a class="header-links third after">
-          PROJECTS
-        </a>
-        <a class="header-links third after">
-          ABOUT
-        </a>
+        <a class="header-links third after" *ngIf="router.url === '/'" (click)="toMySkills()">
+        SKILLS
+      </a>
+        <a class="header-links third after" *ngIf="router.url === '/'" (click)="toMyWork()">
+        PROJECTS
+      </a>
+        <a class="header-links third after" *ngIf="router.url === '/'" (click)="toAboutMe()">
+        ABOUT
+      </a>
     </div>
-
-
+    <div class="mobmen d-none" id="menu">
+        <div id="menu-bar" (click)="menuOnClick()">
+            <div id="bar1" class="bar"></div>
+            <div id="bar2" class="bar"></div>
+            <div id="bar3" class="bar"></div>
+        </div>
+        <nav class="nav" id="nav">
+            <ul class="mobile-links">
+                <li>
+                    <a class="third after" (click)="menuOnClick()" routerLink="/">
+              HOME
+            </a>
+                </li>
+                <li>
+                    <a class="third after" *ngIf="router.url === '/'" (click)="toMySkills(); menuOnClick()">
+              SKILLS
+            </a>
+                </li>
+                <li>
+                    <a class="third after" *ngIf="router.url === '/'" (click)="toMyWork(); menuOnClick()">
+              PROJECTS
+            </a>
+                </li>
+                <li>
+                    <a class="third after" *ngIf="router.url === '/'" (click)="toAboutMe(); menuOnClick()">
+              ABOUT
+            </a>
+                </li>
+            </ul>
+        </nav>
+    </div>
 </header>

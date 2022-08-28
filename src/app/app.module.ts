@@ -23,6 +23,9 @@ import { HttpClientModule } from '@angular/common/http';
 import { MatMenuModule } from '@angular/material/menu';
 
 
+
+
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -36,7 +39,10 @@ import { MatMenuModule } from '@angular/material/menu';
     FooterComponent,
     ImprintComponent,
     BackgroundComponent,
-    LegalNoticeComponent
+    LegalNoticeComponent,
+    
+
+   
     
   ],
   imports: [
@@ -50,6 +56,7 @@ import { MatMenuModule } from '@angular/material/menu';
     ReactiveFormsModule,
     HttpClientModule,
     MatMenuModule,
+    
     
   ],
   providers: [],

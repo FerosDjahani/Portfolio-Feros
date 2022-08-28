@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-
+import { Router } from '@angular/router';
 @Component({
   selector: 'app-menu',
   templateUrl: './menu.component.html',
@@ -7,9 +7,26 @@ import { Component, OnInit } from '@angular/core';
 })
 export class MenuComponent implements OnInit {
 
-  constructor() { }
+  constructor(public router: Router) {}
+  public home: boolean = true;
+  ngOnInit(): void {}
 
-  ngOnInit(): void {
+  
+  isHomeRoute() {
+    return this.router.url === '/';
+  }
+  toMySkills() {
+    document.getElementById('skills').scrollIntoView({ behavior: 'smooth' });
+  }
+  toMyWork() {
+    document.getElementById('my-work').scrollIntoView({ behavior: 'smooth' });
+  }
+  toAboutMe() {
+    document.getElementById('about-me').scrollIntoView({ behavior: 'smooth' });
+  }
+  menuOnClick() {
+    document.getElementById('menu-bar').classList.toggle('change');
+    document.getElementById('nav').classList.toggle('change');
   }
 
 

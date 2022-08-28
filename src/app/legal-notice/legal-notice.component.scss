@@ -2,7 +2,7 @@
     z-index: 3;
     background-color: #1a1a1a;
     padding: 2rem;
-    margin-top: 6.5rem;
+    padding-top: 6.5rem;
     color: white;
     display: flex;
     justify-content: center;
@@ -26,4 +26,90 @@
             text-decoration: underline;
         }
     }
+}
+
+header {
+    position: absolute;
+    left: 0;
+    right: 0;
+    height: 100px;
+    z-index: 1;
+    padding-right: 120px;
+    padding-left: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    a,
+    a:visited,
+    a:hover {
+        cursor: pointer;
+        -webkit-backface-visibility: hidden;
+        backface-visibility: hidden;
+        position: relative;
+        transition: 125ms color ease-in-out;
+        color: #ffffff;
+        text-decoration: none;
+        font-size: 18px;
+        font-weight: 500;
+        margin-left: 5rem;
+    }
+    a:hover,
+    a:active {
+        color: #fa2759;
+    }
+    a.before:before,
+    a.after:after {
+        content: "";
+        transition: 125ms all ease-in-out;
+        -webkit-backface-visibility: hidden;
+        backface-visibility: hidden;
+        position: absolute;
+    }
+    a.before:before {
+        top: -0.25em;
+    }
+    a.after:after {
+        bottom: -0.25em;
+    }
+    a.before:before,
+    a.after:after {
+        height: 5px;
+        height: 0.15rem;
+        width: 0;
+        background: #fa2759;
+    }
+    a.third:after,
+    a.sixth:before,
+    a.sixth:after {
+        left: 50%;
+        -webkit-transform: translateX(-50%);
+        transform: translateX(-50%);
+    }
+    a.before:hover:before,
+    a.after:hover:after {
+        width: 100%;
+    }
+}
+
+.imprint-wrap {
+    padding-top: 8rem;
+    color: white;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    a {
+        text-decoration: none;
+        color: #2dfcd8;
+        transition: ease-in-out 125ms;
+        &:hover {
+            text-decoration: underline;
+        }
+    }
+}
+
+.logo_img {
+    height: 30px;
+    cursor: pointer;
 }
