@@ -31,9 +31,8 @@ export class MenuComponent implements OnInit {
 
 
    getHome() {
-    //window.location.href='./menu.component.html' 
-  //window.location.reload();
-}
+     window.location.reload();
+     }
 
 }
 

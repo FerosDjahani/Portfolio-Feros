@@ -1,5 +1,7 @@
 <header>
-    <img onclick="getHome()" class="logo_img" src="assets/img/Logo.png">
+    <div onclick="getHome()">
+        <img class="logo_img" src="assets/img/Logo.png">
+    </div>
 
     <div class="links">
         <a class="header-links third after" routerLink="/"> HOME </a>
@@ -13,7 +15,7 @@
         ABOUT
       </a>
     </div>
-    <div class="mobmen d-none" id="menu">
+    <div class="mobmen" id="menu">
         <div id="menu-bar" (click)="menuOnClick()">
             <div id="bar1" class="bar"></div>
             <div id="bar2" class="bar"></div>

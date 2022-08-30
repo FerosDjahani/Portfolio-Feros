@@ -13,6 +13,7 @@ export class MyWorkComponent implements OnInit {
       description: 'My Portfolio built with Angular',
       type: 'Angular',
       link: 'http://f01463b4@feros-djahani.developerakademie.net/Portfolio/index.html',
+      git:'https://github.com/FerosDjahani/Portfolio-Feros'
     },
     {
       image: 'assets/img/sharky.png',
@@ -20,6 +21,7 @@ export class MyWorkComponent implements OnInit {
       description: 'JavaScript based game (OOP)',
       type: 'Javascript',
       link: 'http://f01463b4@feros-djahani.developerakademie.net/SHARKY/index.html',
+      git:'https://github.com/FerosDjahani/Sharky'
     },
     {
       image: 'assets/img/pollo.png',
@@ -27,6 +29,7 @@ export class MyWorkComponent implements OnInit {
       description: 'JavaScript based game (OOP)',
       type: 'Javascript',
       link: 'http://f01463b4@feros-djahani.developerakademie.net/el%20pollo%20loco/index.html',
+      git:'https://github.com/FerosDjahani/El-Pollo-Loco'
     },
     {
       image: 'assets/img/fire.png',
@@ -35,6 +38,7 @@ export class MyWorkComponent implements OnInit {
         'Angular based web app with Firebase (Multiplayer availible)',
       type: 'Angular',
       link: 'http://f01463b4@feros-djahani.developerakademie.net/RingOfFire/index.html',
+      git:'https://github.com/FerosDjahani/RingofFire'
     },
     {
       image: 'assets/img/join.png',
@@ -42,6 +46,7 @@ export class MyWorkComponent implements OnInit {
       description: 'Join is a kanban built with JavaScript (Group Project)',
       type: 'Javascript',
       link: 'http://feros-djahani.developerakademie.net/JOIN/index.html',
+      git:'https://github.com/FerosDjahani/JOIN'
     },
     {
       image: 'assets/img/pokedex.png',
@@ -49,6 +54,7 @@ export class MyWorkComponent implements OnInit {
       description: 'A Pokedex built with the PokeApi and JavaScript',
       type: 'Javascript',
       link: 'http://f01463b4@feros-djahani.developerakademie.net/Pokedex/index.html',
+      git:'https://github.com/FerosDjahani/Pokedex'
     },
     {
       image: 'assets/img/pixta.png',
@@ -57,6 +63,7 @@ export class MyWorkComponent implements OnInit {
         'A simple Instagram clone with a comment function',
       type: 'Javascript',
       link: 'http://f01463b4@feros-djahani.developerakademie.net/instagram/insta.html',
+      git:'https://github.com/FerosDjahani/Pixtragram'
     },
     {
       image: 'assets/img/lifer.png',
@@ -64,6 +71,7 @@ export class MyWorkComponent implements OnInit {
       description: 'A clone of the popular food delivery app',
       type: 'Javascript',
       link: 'http://f01463b4@feros-djahani.developerakademie.net/lieferking/lieferking.html',
+      git:'https://github.com/FerosDjahani/Lieferking'
     },
     {
       image: 'assets/img/quizz.png',
@@ -71,13 +79,14 @@ export class MyWorkComponent implements OnInit {
       description: 'A simple quiz game built with Javascript',
       type: 'JavaScript',
       link: 'http://f01463b4@feros-djahani.developerakademie.net/quiz%20app/QuizApp.html',
+      git:'https://github.com/FerosDjahani/QuizApp'
     },
     {
       image: 'assets/img/kochwelt.png',
       title: 'Kochwelt Clone',
       description: 'A clone of the popular food recipe app',
       type: 'JavaScript',
-      link: 'http://f01463b4@feros-djahani.developerakademie.net/Feros%20Aktualisiert%20Kochwelt/index.html',
+      link: 'https://github.com/FerosDjahani/Kochwelt',
     },
   ];
 
