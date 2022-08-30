@@ -1,3 +1,4 @@
-<div class="slideshow-container">
+<div *ngIf="!(router.url === '/imprint' || router.url === '/forgot-password')">
+    hide this content class="slideshow-container">
     <img class="slideshow-img" src="assets/img/wall4.jpg" />
 </div>
