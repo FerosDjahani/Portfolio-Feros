@@ -30,9 +30,5 @@ export class MenuComponent implements OnInit {
   }
 
 
-   getHome() {
-     window.location.reload();
-     }
-
 }
 

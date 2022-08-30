@@ -45,7 +45,7 @@ export class MyWorkComponent implements OnInit {
       title: 'Join',
       description: 'Join is a kanban built with JavaScript (Group Project)',
       type: 'Javascript',
-      link: 'http://feros-djahani.developerakademie.net/JOIN/index.html',
+      link: 'https://feros-djahani.developerakademie.net/JOIN/index.html',
       git:'https://github.com/FerosDjahani/JOIN'
     },
     {
