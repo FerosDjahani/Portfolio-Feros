@@ -37,7 +37,15 @@
 .mat-input-element {
     background-color: #000000 !important;
     color: white !important;
-    caret-color: #69f0ae;
+    border: 1px solid #7c7c7ccc;
+    border-radius: 3px;
+    height: 50px;
+    &:hover {
+        border: 2px solid #a0a0a0;
+    }
+    &:active {
+        border: 2px solid #2dfcd8;
+    }
 }
 
 textarea {
@@ -46,7 +54,7 @@ textarea {
 
 button {
     color: white;
-    width: 40vw;
+    width: 39vw;
     margin: 0 0.2rem;
     padding: 1rem 0;
     border: 2px solid #2dfcd8;

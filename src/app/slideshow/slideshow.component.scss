@@ -430,6 +430,29 @@
     }
 }
 
+@media (max-width: 653px) {
+    .h2Color {
+        font-size: 1.5rem;
+    }
+    .h1Color {
+        font-size: 1.5rem;
+    }
+    .mypic {
+        height: 200px;
+        width: 200px;
+    }
+    .introduction-wrap {
+        padding: 0 1rem 0;
+    }
+    .mobb {
+        display: flex;
+        justify-content: center;
+    }
+    .button2 {
+        padding: 1.5rem 6rem;
+    }
+}
+
 @media (max-width: 360px) {
     .introduction-wrap {
         padding: 2rem 1rem 0;
@@ -455,5 +478,101 @@
 @media (max-width: 300px) {
     .button2 {
         padding: 1rem 3rem;
+    }
+}
+
+@media (height: 375px) {
+    .mypic {
+        width: 150px;
+        height: 150px;
+    }
+    .h1Color {
+        font-size: 2.5rem;
+    }
+    .h2Color {
+        font-size: 2.5rem;
+    }
+    .introduction-wrap {
+        display: flex;
+        flex-direction: row;
+    }
+}
+
+@media (height: 414px) {
+    .mypic {
+        width: 200px;
+        height: 200px;
+    }
+}
+
+@media (height: 390px) {
+    .mypic {
+        width: 150px;
+        height: 150px;
+    }
+}
+
+@media (height: 393px) {
+    .mypic {
+        width: 200px;
+        height: 200px;
+    }
+}
+
+@media (height: 412px) {
+    .mypic {
+        width: 200px;
+        height: 200px;
+    }
+}
+
+@media (height: 360px) {
+    .mypic {
+        width: 150px;
+        height: 150px;
+    }
+    .h1Color {
+        font-size: 2.5rem;
+    }
+    .h2Color {
+        font-size: 2.5rem;
+    }
+    .introduction-wrap {
+        display: flex;
+        flex-direction: row;
+    }
+}
+
+@media (height: 540px) {
+    .mypic {
+        width: 150px;
+        height: 150px;
+    }
+    .h1Color {
+        font-size: 2.5rem;
+    }
+    .h2Color {
+        font-size: 2.5rem;
+    }
+    .introduction-wrap {
+        display: flex;
+        flex-direction: row;
+    }
+}
+
+@media (height: 512px) {
+    .mypic {
+        width: 150px;
+        height: 150px;
+    }
+    .h1Color {
+        font-size: 2.5rem;
+    }
+    .h2Color {
+        font-size: 2.5rem;
+    }
+    .introduction-wrap {
+        display: flex;
+        flex-direction: row;
     }
 }

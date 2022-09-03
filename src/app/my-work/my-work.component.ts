@@ -86,7 +86,8 @@ export class MyWorkComponent implements OnInit {
       title: 'Kochwelt Clone',
       description: 'A clone of the popular food recipe app',
       type: 'JavaScript',
-      link: 'https://github.com/FerosDjahani/Kochwelt',
+      link: 'http://f01463b4@feros-djahani.developerakademie.net/Feros%20Aktualisiert%20Kochwelt/index.html',
+      git:'https://github.com/FerosDjahani/Kochwelt'
     },
   ];
 
