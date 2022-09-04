@@ -5,45 +5,32 @@
     background-color: #000000;
     padding-bottom: 5rem;
     overflow: hidden;
-    p {
+    inside p {
         margin: 0 0 0.5rem;
         color: white;
     }
 }
 
-.form-field-container {
-    mat-form-field {
-        width: 40vw;
-        &:hover {
-            border-color: #2dfcd8 !important;
-        }
-    }
-}
-
-.mat-form-field {
-    padding: 1em 0;
-}
-
-.mat-form-field-infix {
-    display: block;
-    position: relative;
-    flex: auto;
-    min-width: 0;
-    width: 180px;
-    padding: 0.5em 0;
-    border-top: 0.84375em solid transparent;
-}
-
-.mat-input-element {
-    background-color: #000000 !important;
+.inside {
+    background-color: #1a1a1a !important;
     color: white !important;
     border: 1px solid #7c7c7ccc;
-    border-radius: 3px;
+    border-radius: 6px;
     height: 50px;
+    width: 40vw;
     &:hover {
         border: 2px solid #a0a0a0;
     }
-    &:active {
+}
+
+.active {
+    background-color: #1a1a1a !important;
+    color: white !important;
+    border: 2px solid #2dfcd8 !important;
+    border-radius: 6px;
+    height: 50px;
+    width: 40vw;
+    &:hover {
         border: 2px solid #2dfcd8;
     }
 }
@@ -52,11 +39,16 @@ textarea {
     min-height: 10rem;
 }
 
+.form-field-container {
+    padding: 15px;
+}
+
 button {
     color: white;
-    width: 39vw;
+    width: 40vw;
     margin: 0 0.2rem;
     padding: 1rem 0;
+    margin-top: 30px;
     border: 2px solid #2dfcd8;
     border-radius: 6px;
     transition: ease-in-out 100ms;
@@ -72,10 +64,11 @@ button {
 }
 
 @media (max-width: 1000px) {
-    .form-field-container {
-        mat-form-field {
-            width: 60vw;
-        }
+    .inside {
+        width: 60vw;
+    }
+    .active {
+        width: 60vw;
     }
     button {
         width: 60vw;
@@ -83,10 +76,11 @@ button {
 }
 
 @media (max-width: 800px) {
-    .form-field-container {
-        mat-form-field {
-            width: 75vw;
-        }
+    .inside {
+        width: 75vw;
+    }
+    .active {
+        width: 60vw;
     }
     button {
         width: 75vw;
@@ -94,10 +88,11 @@ button {
 }
 
 @media (max-width: 600px) {
-    .form-field-container {
-        mat-form-field {
-            width: 85vw;
-        }
+    .inside {
+        width: 85vw;
+    }
+    .active {
+        width: 60vw;
     }
     button {
         width: 85vw;
@@ -105,10 +100,11 @@ button {
 }
 
 @media (max-width: 500px) {
-    .form-field-container {
-        mat-form-field {
-            width: 90vw;
-        }
+    .inside {
+        width: 90vw;
+    }
+    .active {
+        width: 60vw;
     }
     button {
         width: 90vw;

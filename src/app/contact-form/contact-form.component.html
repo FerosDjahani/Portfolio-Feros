@@ -1,24 +1,24 @@
 <div class="contact-form">
     <div data-aos="fade-right" class="form-field-container">
         <p>Name</p>
-        <mat-form-field color="accent" appearance="outline">
 
-            <input id="name" matInput placeholder="Enter your name" />
-        </mat-form-field>
+
+        <input (click)="borderchange1()" class="inside" id="name" matInput placeholder="Enter your name" />
+
     </div>
     <div data-aos="fade-left" class="form-field-container">
         <p>Email Address</p>
-        <mat-form-field color="accent" appearance="outline">
 
-            <input id="e-mail" type="email" name="email" matInput placeholder="Enter your Email address" />
-        </mat-form-field>
+
+        <input (click)="borderchange2()" class="inside" id="e-mail" type="email" name="email" matInput placeholder="Enter your Email address" />
+
     </div>
     <div data-aos="fade-right" class="form-field-container">
         <p>Message</p>
-        <mat-form-field color="accent" appearance="outline">
 
-            <textarea id="message" name="message" matInput placeholder="Enter your message"></textarea>
-        </mat-form-field>
+
+        <textarea (click)="borderchange3()" class="inside" id="message" name="message" matInput placeholder="Enter your message"></textarea>
+
 
     </div>
     <button data-aos="zoom-out-up" (click)="submit()" type="submit" class="from-center" mat-stroked-button>

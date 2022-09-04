@@ -15,4 +15,18 @@ export class ContactFormComponent implements OnInit {
     document.getElementById('e-mail').innerHTML = '';
     document.getElementById('message').innerHTML = '';
   }
+
+
+  borderchange1(){
+    document.getElementById('name').classList.remove('inside');
+    document.getElementById('name').classList.add('active');
+  }
+  borderchange2(){
+    document.getElementById('e-mail').classList.remove('inside');
+    document.getElementById('e-mail').classList.add('active');
+  }
+  borderchange3(){
+    document.getElementById('message').classList.remove('inside');
+    document.getElementById('message').classList.add('active');
+  }
 }
