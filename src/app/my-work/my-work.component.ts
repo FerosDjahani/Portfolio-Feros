@@ -48,21 +48,21 @@ export class MyWorkComponent implements OnInit {
       link: 'https://feros-djahani.developerakademie.net/JOIN/index.html',
       git:'https://github.com/FerosDjahani/JOIN'
     },
-    {
-      image: 'assets/img/pokedex.png',
-      title: 'Pokedex',
-      description: 'A Pokedex built with the PokeApi and JavaScript',
-      type: 'Javascript',
-      link: 'http://f01463b4@feros-djahani.developerakademie.net/Pokedex/index.html',
-      git:'https://github.com/FerosDjahani/Pokedex'
-    },
+    //{
+      //image: 'assets/img/pokedex.png',
+     // title: 'Pokedex',
+      //description: 'A Pokedex built with the PokeApi and JavaScript',
+      //type: 'Javascript',
+     // link: 'http://f01463b4@feros-djahani.developerakademie.net/Pokedex/index.html',
+     // git:'https://github.com/FerosDjahani/Pokedex'
+    //},
     {
       image: 'assets/img/pixta.png',
       title: 'Instagram Clone',
       description:
         'A simple Instagram clone with a comment function',
       type: 'Javascript',
-      link: 'http://f01463b4@feros-djahani.developerakademie.net/instagram/insta.html',
+      link: 'http://f01463b4@feros-djahani.developerakademie.net/instagram/index.html',
       git:'https://github.com/FerosDjahani/Pixtragram'
     },
     {
@@ -72,22 +72,6 @@ export class MyWorkComponent implements OnInit {
       type: 'Javascript',
       link: 'http://f01463b4@feros-djahani.developerakademie.net/lieferking/lieferking.html',
       git:'https://github.com/FerosDjahani/Lieferking'
-    },
-    {
-      image: 'assets/img/quizz.png',
-      title: 'Quizapp',
-      description: 'A simple quiz game built with Javascript',
-      type: 'JavaScript',
-      link: 'http://f01463b4@feros-djahani.developerakademie.net/quiz%20app/QuizApp.html',
-      git:'https://github.com/FerosDjahani/QuizApp'
-    },
-    {
-      image: 'assets/img/kochwelt.png',
-      title: 'Kochwelt Clone',
-      description: 'A clone of the popular food recipe app',
-      type: 'JavaScript',
-      link: 'http://f01463b4@feros-djahani.developerakademie.net/Feros%20Aktualisiert%20Kochwelt/index.html',
-      git:'https://github.com/FerosDjahani/Kochwelt'
     },
   ];
 
