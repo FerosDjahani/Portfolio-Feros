@@ -3,7 +3,7 @@
 ########### CONFIG ###############
 
 $recipient = 'f.djahani@outlook.de';
-$redirect = 'index.html';
+$redirect = 'email-send.html';
 
 ########### CONFIG END ###########
 
@@ -39,10 +39,10 @@ switch ($_SERVER['REQUEST_METHOD']) {
     case ("POST"): //Send the email;
         header("Access-Control-Allow-Origin: *");
 
-        $subject = "Contact From " . $_POST['name'].$_POST['email'].$_POST['message'];
+        $subject = "Contact From " . $_POST['email'];
         $headers = "From:  noreply@developerakademie.com";
 
-        mail($recipient, $subject, $_POST['message'], $headers);
+        mail($_POST['name'].$_POST['message']);
         header("Location: " . $redirect); 
 
         break;
