@@ -46,6 +46,26 @@ textarea {
     padding: 15px;
 }
 
+.maill {
+    height: 45vh;
+    width: 50%;
+    background-color: #1a1a1a;
+    position: absolute;
+    border: 6px solid #2dfcd8;
+    border-radius: 10px;
+    box-shadow: 15px 12px 15px #76cfc0;
+}
+
+.mailstyle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 200px;
+    font-size: 40px;
+    color: white;
+    font-weight: bold;
+}
+
 button {
     color: white;
     width: 40vw;

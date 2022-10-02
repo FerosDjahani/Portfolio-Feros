@@ -19,7 +19,8 @@ export class ContactFormComponent implements OnInit {
     document.getElementById('name').innerHTML = '';
     document.getElementById('e-mail').innerHTML = '';
     document.getElementById('message').innerHTML = '';
-    alert('Message sent!');
+    document.getElementById('maili').classList.remove('d-none');
+    
   }
 
 
