@@ -34,7 +34,7 @@
     position: absolute;
     top: 0;
     display: flex;
-    align-items: center;
+    justify-content: space-around;
     flex-direction: row;
     padding-left: 120px;
     //width: 720px;
@@ -75,24 +75,31 @@
 }
 
 .mypic {
-    height: 300px;
-    width: 300px;
+    height: 400px;
+    width: 400px;
     border-radius: 100%;
 }
 
 .img-container {
-    padding-right: 8.1rem;
+    border-radius: 100%;
+    border: double 10px transparent;
+    background-image: linear-gradient(white, white), radial-gradient(circle at top left, rgb(238, 28, 150), rgb(238, 28, 150), rgb(238, 28, 150), rgb(238, 28, 150), #2dfcd8, #2dfcd8, #2dfcd8, rgb(238, 28, 150), rgb(238, 28, 150), rgb(238, 28, 150));
+    background-origin: border-box;
+    background-clip: content-box, border-box;
+    object-fit: cover;
 }
 
 .button2 {
     display: inline-block;
     padding: 1.5rem 7rem;
     margin-top: 6rem;
+    font-size: 1.7rem!important;
     color: #2dfcd8;
     text-decoration: none;
     overflow: hidden;
     filter: hue-rotate(0deg);
     border: 2px solid #2dfcd8;
+    border-radius: 10px;
     transition: all 0.1s linear;
     &:hover {
         border: 1px solid transparent;
@@ -228,9 +235,6 @@
 }
 
 @media (max-width: 1300px) {
-    .img-container {
-        padding-right: 6.1rem;
-    }
     .introduction-container {
         padding: 3rem 0 0 6.1rem;
     }
@@ -259,13 +263,9 @@
     .mypic {
         height: 250px;
         width: 250px;
-        padding: 30px;
     }
     .introduction-wrap {
         justify-content: center;
-    }
-    .img-container {
-        padding-right: 4rem;
     }
     .introduction-container {
         flex-direction: column;
@@ -293,9 +293,6 @@
     .introduction-wrap {
         justify-content: center;
     }
-    .img-container {
-        padding-right: 4rem;
-    }
     .introduction-container {
         flex-direction: column;
         align-items: center;
@@ -317,9 +314,6 @@
     }
     .introduction-wrap {
         justify-content: space-between;
-    }
-    .img-container {
-        padding-right: 3rem;
     }
     .introduction-container {
         flex-direction: column;
@@ -345,9 +339,6 @@
         justify-content: center;
         padding: 5rem 2rem 0;
     }
-    .img-container {
-        padding-right: 0;
-    }
     .introduction-container {
         flex-direction: column;
         text-align: start;
@@ -362,6 +353,15 @@
     .mobb {
         display: flex;
         justify-content: center;
+    }
+}
+
+@media (max-width: 830px) {
+    .h2Color {
+        font-size: 3rem !important;
+    }
+    .h1Color {
+        font-size: 3.4rem !important;
     }
 }
 
@@ -384,10 +384,10 @@
 
 @media (max-width: 520px) {
     .h2Color {
-        font-size: 2.5rem;
+        font-size: 2.5rem !important;
     }
     .h1Color {
-        font-size: 2.5rem;
+        font-size: 2.5rem !important;
     }
     .button2 {
         margin-bottom: 0;
@@ -404,6 +404,24 @@
     }
     .slideshow-container {
         background-color: #1a1a1a;
+    }
+    .button2 {
+        margin-top: 12rem;
+    }
+    .h1Color {
+        font-size: 3rem !important;
+    }
+    .h2Color {
+        font-size: 3rem !important;
+    }
+}
+
+@media (max-width: 480px) {
+    .h2Color {
+        font-size: 2rem !important;
+    }
+    .h1Color {
+        font-size: 2rem !important;
     }
 }
 
@@ -472,6 +490,15 @@
     }
     .button2 {
         padding: 1rem 3.5rem;
+    }
+}
+
+@media (max-width: 310px) {
+    .h2Color {
+        font-size: 1rem !important;
+    }
+    .h1Color {
+        font-size: 1rem !important;
     }
 }
 

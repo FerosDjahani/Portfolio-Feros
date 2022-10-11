@@ -1,7 +1,7 @@
 <div class="my-work-wrap">
     <h2 data-aos="zoom-in-up">My Work</h2>
     <div data-aos="fade-left" class="button-bar">
-        <button class="selected" id="all-btn" (click)="showAll()" mat-stroked-button>
+        <button id="all-btn" (click)="showAll()" mat-stroked-button>
         All
       </button>
         <button id="angular-btn" (click)="showAngular()" mat-stroked-button>
@@ -20,10 +20,10 @@
                     <h3>{{ project.title }}</h3>
                     <span>{{ project.description }}</span>
                     <a href="{{ project.link }}">
-                        <button mat-stroked-button>Try Out</button>
+                        <button mat-stroked-button class="buttonfontsize">Try Out</button>
                     </a>
                     <a href="{{ project.git }}">
-                        <button mat-stroked-button>GitHub</button>
+                        <button mat-stroked-button class="buttonfontsize">GitHub</button>
                     </a>
 
                 </div>
