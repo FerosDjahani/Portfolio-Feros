@@ -84,7 +84,7 @@ h2 {
             width: 100%;
         }
         &:hover {
-            background-color: #1a1a1a93;
+            background-color: #1a1a1ae8;
             border-radius: 6px;
             opacity: 1;
         }
@@ -96,24 +96,33 @@ h2 {
             color: white;
         }
     }
-    button {
-        color: white;
-        width: 50%;
-        margin: 0 0.2rem;
-        padding: 1rem 0rem;
-        border: 2px solid #fa2759;
-        border-radius: 6px;
-        transition: ease-in-out 100ms;
-        font-size: 1.25rem;
-        background-color: black;
-        &:hover {
-            background-color: #fa2759;
-            color: #000000;
-        }
-        &:active {
-            background-color: #fa2759;
-            color: #000000;
-        }
+}
+
+.view1 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 50%;
+    gap: 20px;
+}
+
+.view {
+    color: white;
+    width: 100%;
+    margin: 0 0.2rem;
+    padding: 1rem 0rem;
+    border: 2px solid #fa2759;
+    border-radius: 6px;
+    transition: ease-in-out 100ms;
+    font-size: 1.25rem;
+    background-color: black;
+    &:hover {
+        background-color: #fa2759;
+        color: #000000;
+    }
+    &:active {
+        background-color: #fa2759;
+        color: #000000;
     }
 }
 
@@ -175,6 +184,12 @@ h2 {
             height: 17rem;
         }
     }
+    .my-work-wrap {
+        padding: 0 3rem;
+        button {
+            font-size: 1rem !important;
+        }
+    }
 }
 
 @media (max-width: 1000px) {
@@ -202,6 +217,10 @@ h2 {
 @media (max-width: 900px) {
     .my-work-wrap {
         padding: 0 3rem;
+        button {
+            font-size: 1rem !important;
+            padding: unset;
+        }
     }
     .my-work-container {
         justify-content: space-between;
@@ -220,6 +239,9 @@ h2 {
     .my-work-wrap {
         padding: 0 3rem;
         background-color: #1a1a1a;
+        button {
+            font-size: 1rem !important;
+        }
     }
     .my-work-container {
         flex-direction: column;
@@ -239,6 +261,13 @@ h2 {
     .my-work-div {
         img {
             height: 21rem;
+        }
+    }
+    .my-work-wrap {
+        padding: 0 3rem;
+        view {
+            font-size: 1rem !important;
+            padding: unset;
         }
     }
 }
@@ -266,6 +295,10 @@ h2 {
             height: 23rem;
         }
     }
+    view {
+        font-size: 1rem !important;
+        padding: unset;
+    }
 }
 
 @media (max-width: 650px) {
@@ -273,6 +306,17 @@ h2 {
         img {
             height: 21rem;
         }
+    }
+    .my-work-wrap {
+        padding: 0 3rem;
+        button {
+            font-size: 1rem !important;
+            padding: unset;
+        }
+    }
+    view {
+        font-size: 1rem !important;
+        padding: unset;
     }
 }
 
@@ -295,6 +339,10 @@ h2 {
             height: 20rem;
         }
     }
+    view {
+        font-size: 1rem !important;
+        padding: unset;
+    }
 }
 
 @media (max-width: 550px) {
@@ -307,6 +355,10 @@ h2 {
         img {
             height: 18rem;
         }
+    }
+    view {
+        font-size: 1rem !important;
+        padding: unset;
     }
 }
 
@@ -326,6 +378,10 @@ h2 {
             height: 17rem;
         }
     }
+    view {
+        font-size: 1rem !important;
+        padding: unset;
+    }
 }
 
 @media (max-width: 450px) {
@@ -340,6 +396,10 @@ h2 {
         img {
             height: 15rem;
         }
+    }
+    view {
+        font-size: 1rem !important;
+        padding: unset;
     }
 }
 
@@ -359,7 +419,7 @@ h2 {
         button {
             width: 40%;
             margin: 0;
-            padding: 0.6rem 0rem;
+            padding: unset;
             font-size: 1rem;
         }
         .hover-project {
@@ -367,6 +427,10 @@ h2 {
                 padding: 0 1rem;
             }
         }
+    }
+    view {
+        font-size: 1rem !important;
+        padding: unset !important;
     }
 }
 
@@ -400,6 +464,27 @@ h2 {
             }
         }
     }
+    view {
+        font-size: 1rem !important;
+        padding: unset;
+    }
+}
+
+@media (max-width: 375px) {
+    .button-bar {
+        button {
+            line-height: 16px;
+        }
+    }
+    .my-work-div {
+        img {
+            height: 10rem;
+        }
+    }
+    view {
+        font-size: 1rem !important;
+        padding: unset !important;
+    }
 }
 
 @media (max-width: 300px) {
@@ -412,5 +497,9 @@ h2 {
         img {
             height: 10rem;
         }
+    }
+    view {
+        font-size: 1rem !important;
+        padding: unset !important;
     }
 }

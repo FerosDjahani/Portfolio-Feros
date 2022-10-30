@@ -8,7 +8,7 @@
         Angular
       </button>
         <button id="javascript-btn" (click)="showJavascript()" mat-stroked-button>
-        Java<wbr /> Script
+        JavaScript
       </button>
     </div>
 
@@ -19,13 +19,14 @@
                 <div class="hover-project">
                     <h3>{{ project.title }}</h3>
                     <span>{{ project.description }}</span>
-                    <a href="{{ project.link }}">
-                        <button mat-stroked-button class="buttonfontsize">Try Out</button>
-                    </a>
-                    <a href="{{ project.git }}">
-                        <button mat-stroked-button class="buttonfontsize">GitHub</button>
-                    </a>
-
+                    <div class="view1">
+                        <a href="{{ project.link }}">
+                            <button mat-stroked-button class="buttonfontsize view">Try Out</button>
+                        </a>
+                        <a href="{{ project.git }}">
+                            <button mat-stroked-button class="buttonfontsize view">GitHub</button>
+                        </a>
+                    </div>
                 </div>
                 <img src="{{ project.image }}" />
             </div>

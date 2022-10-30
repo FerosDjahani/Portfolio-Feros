@@ -11,7 +11,7 @@ export class SkillsComponent implements OnInit {
 
   skills = [
     {
-      icon: './assets/img/JavaScript.png',
+      icon: './assets/img/javascripts.png',
       title: 'JavaScript',
     },
     {
@@ -20,7 +20,7 @@ export class SkillsComponent implements OnInit {
     },
     {
       icon: './assets/img/htmlcss.png',
-      title: 'HTML / (S)CSS',
+      title: 'HTML',
     },
     {
       icon: './assets/img/scrum.png',
@@ -31,8 +31,8 @@ export class SkillsComponent implements OnInit {
       title: 'Git',
     },
     {
-      icon: './assets/img/designthinking.png',
-      title: 'Design Thinking',
+      icon: './assets/img/typescript.png',
+      title: 'TypeScript ',
     },
     {
       icon: './assets/img/api.png',
@@ -43,8 +43,8 @@ export class SkillsComponent implements OnInit {
       title: 'Test Automation',
     },
     {
-      icon: './assets/img/databases.png',
-      title: 'Databases',
+      icon: './assets/img/htmlcss.png',
+      title: ' (S)CSS',
     },
   ];
 

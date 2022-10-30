@@ -78,12 +78,13 @@
     height: 400px;
     width: 400px;
     border-radius: 100%;
+    display: block;
 }
 
 .img-container {
     border-radius: 100%;
-    border: double 10px transparent;
-    background-image: linear-gradient(white, white), radial-gradient(circle at top left, rgb(238, 28, 150), rgb(238, 28, 150), rgb(238, 28, 150), rgb(238, 28, 150), #2dfcd8, #2dfcd8, #2dfcd8, rgb(238, 28, 150), rgb(238, 28, 150), rgb(238, 28, 150));
+    border: double 5px transparent;
+    background-image: linear-gradient(white, white), radial-gradient(circle at top left, white, white, white);
     background-origin: border-box;
     background-clip: content-box, border-box;
     object-fit: cover;
@@ -406,13 +407,16 @@
         background-color: #1a1a1a;
     }
     .button2 {
-        margin-top: 12rem;
+        margin-top: 6rem;
     }
     .h1Color {
         font-size: 3rem !important;
     }
     .h2Color {
         font-size: 3rem !important;
+    }
+    .button2 {
+        margin-top: 3rem;
     }
 }
 

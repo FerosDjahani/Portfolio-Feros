@@ -8,7 +8,7 @@ import { Component, OnInit } from '@angular/core';
 export class MyWorkComponent implements OnInit {
   projects = [
     {
-      image: 'assets/img/port.png',
+      image: 'assets/img/portfo.png',
       title: 'Portfolio',
       description: 'My Portfolio built with Angular',
       type: 'Angular',
@@ -48,14 +48,14 @@ export class MyWorkComponent implements OnInit {
       link: 'https://feros-djahani.developerakademie.net/JOIN/index.html',
       git:'https://github.com/FerosDjahani/JOIN'
     },
-    //{
-      //image: 'assets/img/pokedex.png',
-     // title: 'Pokedex',
-      //description: 'A Pokedex built with the PokeApi and JavaScript',
-      //type: 'Javascript',
-     // link: 'http://f01463b4@feros-djahani.developerakademie.net/Pokedex/index.html',
-     // git:'https://github.com/FerosDjahani/Pokedex'
-    //},
+    {
+      image: 'assets/img/pokedex.png',
+      title: 'Pokedex',
+      description: 'A Pokedex built with the PokeApi and JavaScript',
+      type: 'Javascript',
+      link: 'http://f01463b4@feros-djahani.developerakademie.net/Pokedex/index.html',
+      git:'https://github.com/FerosDjahani/Pokedex'
+    },
     {
       image: 'assets/img/pixta.png',
       title: 'Instagram Clone',
@@ -70,7 +70,7 @@ export class MyWorkComponent implements OnInit {
       title: 'Lieferking Clone',
       description: 'A clone of the popular food delivery app',
       type: 'Javascript',
-      link: 'http://f01463b4@feros-djahani.developerakademie.net/lieferking/lieferking.html',
+      link: 'http://f01463b4@feros-djahani.developerakademie.net/lieferking/index.html',
       git:'https://github.com/FerosDjahani/Lieferking'
     },
   ];
