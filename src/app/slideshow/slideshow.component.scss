@@ -43,7 +43,7 @@
 
 .h1Color {
     font-size: 4rem;
-    color: rgb(238, 28, 150);
+    color: #fa2759;
 }
 
 .h1Color:hover {
@@ -56,7 +56,7 @@
 }
 
 .h2Color:hover {
-    color: rgb(238, 28, 150);
+    color: #fa2759;
 }
 
 .fadeIn {
@@ -87,7 +87,6 @@
     background-image: linear-gradient(white, white), radial-gradient(circle at top left, white, white, white);
     background-origin: border-box;
     background-clip: content-box, border-box;
-    object-fit: cover;
 }
 
 .button2 {
@@ -518,14 +517,21 @@
         height: 150px;
     }
     .h1Color {
-        font-size: 2.5rem;
+        font-size: 2rem !important;
     }
     .h2Color {
-        font-size: 2.5rem;
+        font-size: 2rem !important;
     }
     .introduction-wrap {
         display: flex;
         flex-direction: row;
+    }
+    .button2 {
+        padding: 1rem 2rem;
+        font-size: 1rem !important;
+    }
+    .introduction-wrap {
+        justify-content: space-between;
     }
 }
 
@@ -534,12 +540,46 @@
         width: 200px;
         height: 200px;
     }
+    .h1Color {
+        font-size: 2rem !important;
+    }
+    .h2Color {
+        font-size: 2rem !important;
+    }
+    .introduction-wrap {
+        display: flex;
+        flex-direction: row;
+    }
+    .button2 {
+        padding: 1rem 2rem;
+        font-size: 1rem !important;
+    }
+    .introduction-wrap {
+        justify-content: space-around;
+    }
 }
 
 @media (height: 390px) {
     .mypic {
-        width: 150px;
-        height: 150px;
+        width: 200px;
+        height: 200px;
+    }
+    .h1Color {
+        font-size: 2rem !important;
+    }
+    .h2Color {
+        font-size: 2rem !important;
+    }
+    .introduction-wrap {
+        display: flex;
+        flex-direction: row;
+    }
+    .button2 {
+        padding: 1rem 2rem;
+        font-size: 1rem !important;
+    }
+    .introduction-wrap {
+        justify-content: space-around;
     }
 }
 
@@ -548,6 +588,23 @@
         width: 200px;
         height: 200px;
     }
+    .h1Color {
+        font-size: 2rem !important;
+    }
+    .h2Color {
+        font-size: 2rem !important;
+    }
+    .introduction-wrap {
+        display: flex;
+        flex-direction: row;
+    }
+    .button2 {
+        padding: 1rem 2rem;
+        font-size: 1rem !important;
+    }
+    .introduction-wrap {
+        justify-content: space-around;
+    }
 }
 
 @media (height: 412px) {
@@ -555,22 +612,46 @@
         width: 200px;
         height: 200px;
     }
-}
-
-@media (height: 360px) {
-    .mypic {
-        width: 150px;
-        height: 150px;
-    }
     .h1Color {
-        font-size: 2.5rem;
+        font-size: 2rem !important;
     }
     .h2Color {
-        font-size: 2.5rem;
+        font-size: 2rem !important;
     }
     .introduction-wrap {
         display: flex;
         flex-direction: row;
+    }
+    .button2 {
+        padding: 1rem 2rem;
+        font-size: 1rem !important;
+    }
+    .introduction-wrap {
+        justify-content: space-around;
+    }
+}
+
+@media (height: 360px) {
+    .mypic {
+        width: 200px;
+        height: 200px;
+    }
+    .h1Color {
+        font-size: 2rem !important;
+    }
+    .h2Color {
+        font-size: 2rem !important;
+    }
+    .introduction-wrap {
+        display: flex;
+        flex-direction: row;
+    }
+    .button2 {
+        padding: 1rem 2rem;
+        font-size: 1rem !important;
+    }
+    .introduction-wrap {
+        justify-content: space-around;
     }
 }
 

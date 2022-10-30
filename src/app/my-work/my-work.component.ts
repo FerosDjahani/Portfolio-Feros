@@ -49,7 +49,7 @@ export class MyWorkComponent implements OnInit {
       git:'https://github.com/FerosDjahani/JOIN'
     },
     {
-      image: 'assets/img/pokedex.png',
+      image: 'assets/img/Poked.png',
       title: 'Pokedex',
       description: 'A Pokedex built with the PokeApi and JavaScript',
       type: 'Javascript',
