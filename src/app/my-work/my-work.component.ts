@@ -48,23 +48,23 @@ export class MyWorkComponent implements OnInit {
       link: 'https://feros-djahani.developerakademie.net/JOIN/index.html',
       git:'https://github.com/FerosDjahani/JOIN'
     },
-    {
-      image: 'assets/img/Poked.png',
-      title: 'Pokedex',
-      description: 'A Pokedex built with the PokeApi and JavaScript',
-      type: 'Javascript',
-      link: 'http://f01463b4@feros-djahani.developerakademie.net/Pokedex/index.html',
-      git:'https://github.com/FerosDjahani/Pokedex'
-    },
-    {
-      image: 'assets/img/pixta.png',
-      title: 'Instagram Clone',
-      description:
-        'A simple Instagram clone with a comment function',
-      type: 'Javascript',
-      link: 'http://f01463b4@feros-djahani.developerakademie.net/instagram/index.html',
-      git:'https://github.com/FerosDjahani/Pixtragram'
-    },
+    //{
+    //  image: 'assets/img/Poked.png',
+    //  title: 'Pokedex',
+    //  description: 'A Pokedex built with the PokeApi and JavaScript',
+    //  type: 'Javascript',
+    //  link: 'http://f01463b4@feros-djahani.developerakademie.net/Pokedex/index.html',
+    //  git:'https://github.com/FerosDjahani/Pokedex'
+   // },
+    //{
+    //  image: 'assets/img/pixta.png',
+    //  title: 'Instagram Clone',
+    //  description:
+   //     'A simple Instagram clone with a comment function',
+   //   type: 'Javascript',
+   //   link: 'http://f01463b4@feros-djahani.developerakademie.net/instagram/index.html',
+   //   git:'https://github.com/FerosDjahani/Pixtragram'
+  //  },
     {
       image: 'assets/img/lifer.png',
       title: 'Lieferking Clone',
