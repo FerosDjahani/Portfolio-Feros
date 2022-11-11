@@ -74,20 +74,28 @@
     }
 }
 
-.mypic {}
-
-.img-container {
-    border-radius: 100%;
-    border: double 5px transparent;
-    background-image: linear-gradient(white, white), radial-gradient(circle at top left, white, white, white);
-    background-origin: border-box;
-    background-clip: content-box, border-box;
-    background-image: url("/assets/img/porto1-min.jpg");
+.mypic {
     height: 400px;
     width: 400px;
     border-radius: 100%;
     display: block;
     object-fit: contain;
+    background-size: cover;
+}
+
+.img-container {
+    border-radius: 100%;
+    border: double 5px transparent;
+    background-image: url("/assets/img/porto1-min.jpg");
+    background-image: linear-gradient(white, white), radial-gradient(circle at top left, white, white, white);
+    background-origin: border-box;
+    background-clip: content-box, border-box;
+    height: 400px;
+    width: 400px;
+    border-radius: 100%;
+    display: block;
+    object-fit: contain;
+    background-size: cover;
 }
 
 .button2 {
