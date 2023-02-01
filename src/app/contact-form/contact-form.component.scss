@@ -125,6 +125,17 @@ button {
     button {
         width: 85vw;
     }
+    .mailstyle {
+        font-size: 20px;
+        display: flex !important;
+        justify-content: center !important;
+        align-items: center !important;
+        margin-top: 120px !important;
+    }
+    .maill {
+        height: 25vh;
+        width: 40%;
+    }
 }
 
 @media (max-width: 500px) {
@@ -136,5 +147,30 @@ button {
     }
     button {
         width: 90vw;
+    }
+    .mailstyle {
+        font-size: 20px;
+        display: flex !important;
+        justify-content: center !important;
+        align-items: center !important;
+        margin-top: 120px !important;
+    }
+    .maill {
+        height: 25vh;
+        width: 40%;
+    }
+}
+
+@media (max-width: 300px) {
+    .mailstyle {
+        font-size: 15px;
+        display: flex !important;
+        justify-content: center !important;
+        align-items: center !important;
+        margin-top: 120px !important;
+    }
+    .maill {
+        height: 25vh;
+        width: 40%;
     }
 }
