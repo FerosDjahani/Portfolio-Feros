@@ -65,6 +65,34 @@ p {
     width: 1.5rem;
 }
 
+.CV {
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    padding-top: 60px;
+}
+
+.cvbtn {
+    color: white;
+    width: 10vw;
+    padding: 1rem 0;
+    margin-top: 30px;
+    border: 2px solid #2dfcd8;
+    border-radius: 6px;
+    transition: ease-in-out 100ms;
+    background-color: #000000;
+    font-size: 1.2rem;
+    text-decoration: none;
+    &:hover {
+        background-color: #2dfcd8;
+        color: #000000;
+    }
+    &:active {
+        background-color: #2dfcd8;
+        color: #000000;
+    }
+}
+
 @media (max-width: 1300px) {
     .my-journey-wrap {
         justify-content: space-between;

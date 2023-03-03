@@ -37,6 +37,8 @@ export class SlideshowComponent implements OnInit {
     .scrollIntoView({ behavior: 'smooth' });
 }
 
+
+
 toMySkills() {
   document.getElementById('skills').scrollIntoView({ behavior: 'smooth' });
 }

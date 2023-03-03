@@ -118,13 +118,10 @@ header {
     h3 {
         font-size: 1rem;
     }
-    a {
-        word-wrap: break-word !important;
-    }
 }
 
 @media (max-width: 500px) {
     .legal-notice-wrap {
-        word-wrap: break-word !important;
+        word-break: break-all!important;
     }
 }

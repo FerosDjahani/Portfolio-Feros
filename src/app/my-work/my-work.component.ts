@@ -31,15 +31,14 @@ export class MyWorkComponent implements OnInit {
     //  link: 'http://f01463b4@feros-djahani.developerakademie.net/el%20pollo%20loco/index.html',
     //  git:'https://github.com/FerosDjahani/El-Pollo-Loco'
    // },
-   // {
-      //image: 'assets/img/fire.png',
-      //title: 'Ringoffire',
-     // description:
-      //  'Angular based web app with Firebase (Multiplayer availible)',
-      //type: 'Angular',
-     // link: 'http://f01463b4@feros-djahani.developerakademie.net/RingOfFire/index.html',
-     // git:'https://github.com/FerosDjahani/RingofFire'
-    //},
+    {
+      image: 'assets/img/fire.png',
+      title: 'Ringoffire',
+      description:'Angular based web app with Firebase (Multiplayer availible)',
+      type: 'Angular',
+      link: 'http://f01463b4@feros-djahani.developerakademie.net/RingOfFire/index.html',
+      git:'https://github.com/FerosDjahani/RingofFire'
+    },
     {
       image: 'assets/img/join.png',
       title: 'Join',
@@ -48,14 +47,14 @@ export class MyWorkComponent implements OnInit {
       link: 'https://feros-djahani.developerakademie.net/JOIN/index.html',
       git:'https://github.com/FerosDjahani/JOIN'
     },
-    //{
-    //  image: 'assets/img/Poked.png',
-    //  title: 'Pokedex',
-    //  description: 'A Pokedex built with the PokeApi and JavaScript',
-    //  type: 'Javascript',
-    //  link: 'http://f01463b4@feros-djahani.developerakademie.net/Pokedex/index.html',
-    //  git:'https://github.com/FerosDjahani/Pokedex'
-   // },
+    {
+      image: 'assets/img/Poked.png',
+      title: 'Pokedex',
+      description: 'A Pokedex built with the PokeApi and JavaScript',
+      type: 'Javascript',
+      link: 'http://f01463b4@feros-djahani.developerakademie.net/Pokedex/index.html',
+      git:'https://github.com/FerosDjahani/Pokedex'
+       },
     //{
     //  image: 'assets/img/pixta.png',
     //  title: 'Instagram Clone',
