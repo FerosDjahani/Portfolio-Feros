@@ -18,6 +18,7 @@ export class SkillsComponent implements OnInit {
       icon: './assets/img/angular.png',
       title: 'Angular',
     },
+   
     {
       icon: './assets/img/htmlcss.png',
       title: 'HTML',
@@ -45,6 +46,14 @@ export class SkillsComponent implements OnInit {
     {
       icon: './assets/img/htmlcss.png',
       title: ' (S)CSS',
+    },
+    {
+      icon: './assets/img/react.png',
+      title: 'React',
+    },
+    {
+      icon: './assets/img/vue.png',
+      title: 'Vue.js',
     },
   ];
 

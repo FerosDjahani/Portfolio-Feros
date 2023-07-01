@@ -31,14 +31,14 @@ export class MyWorkComponent implements OnInit {
     //  link: 'http://f01463b4@feros-djahani.developerakademie.net/el%20pollo%20loco/index.html',
     //  git:'https://github.com/FerosDjahani/El-Pollo-Loco'
    // },
-    {
-      image: 'assets/img/fire.png',
-      title: 'Ringoffire',
-      description:'Angular based web app with Firebase (Multiplayer availible)',
-      type: 'Angular',
-      link: 'http://f01463b4@feros-djahani.developerakademie.net/RingOfFire/index.html',
-      git:'https://github.com/FerosDjahani/RingofFire'
-    },
+   // {
+  //    image: 'assets/img/fire.png',
+  //    title: 'Ringoffire',
+  //    description:'Angular based web app with Firebase (Multiplayer availible)',
+  //    type: 'Angular',
+  //    link: 'http://f01463b4@feros-djahani.developerakademie.net/RingOfFire/index.html',
+  //    git:'https://github.com/FerosDjahani/RingofFire'
+  //  },
     {
       image: 'assets/img/join.png',
       title: 'Join',
