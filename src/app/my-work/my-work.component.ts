@@ -8,7 +8,7 @@ import { Component, OnInit } from '@angular/core';
 export class MyWorkComponent implements OnInit {
   projects = [
     {
-      image: 'assets/img/portfo.png',
+      image: 'assets/img/PORTSC.png',
       title: 'Portfolio',
       description: 'My Portfolio built with Angular',
       type: 'Angular',
@@ -47,14 +47,14 @@ export class MyWorkComponent implements OnInit {
       link: 'https://feros-djahani.developerakademie.net/JOIN/index.html',
       git:'https://github.com/FerosDjahani/JOIN'
     },
-    {
-      image: 'assets/img/Poked.png',
-      title: 'Pokedex',
-      description: 'A Pokedex built with the PokeApi and JavaScript',
-      type: 'Javascript',
-      link: 'http://f01463b4@feros-djahani.developerakademie.net/Pokedex/index.html',
-      git:'https://github.com/FerosDjahani/Pokedex'
-       },
+    //{
+    //  image: 'assets/img/Poked.png',
+    //  title: 'Pokedex',
+     // description: 'A Pokedex built with the PokeApi and JavaScript',
+      //type: 'Javascript',
+      //link: 'http://f01463b4@feros-djahani.developerakademie.net/Pokedex/index.html',
+      //git:'https://github.com/FerosDjahani/Pokedex'
+       //},
     //{
     //  image: 'assets/img/pixta.png',
     //  title: 'Instagram Clone',
